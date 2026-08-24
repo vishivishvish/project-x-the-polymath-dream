@@ -2,7 +2,7 @@
 
 A dual, parallel-tracked long-term project:
 
-1. **Vishnu becomes an intermediate-level polymath** across a deliberately sequenced set of scientific and engineering disciplines.
+1. **I become an intermediate-level polymath** across a deliberately sequenced set of scientific and engineering disciplines.
 2. **A continual-learning agent** improves its own performance on an expanding set of metrics (representation stability, ML eval metrics, trading P&L/XIRR, writing quality, etc.), using the same curriculum as its source of experience.
 
 Both halves share one curriculum, one repo, and one running log of ideas. Neither is a side project to the other.
