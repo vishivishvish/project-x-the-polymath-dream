@@ -26,16 +26,44 @@ Every curriculum module runs through some or all of these, in order, per run:
 
 Built from the root field list in [curriculum/00-overview.md](curriculum/00-overview.md#field-list). Pass 1 is a shallow survey across all tiers in order; later passes re-enter the same order at increasing depth.
 
-| Tier | Fields | Timeframe |
+| Tier | Fields | Deepening happens in |
 |---|---|---|
-| 0 | Universal substrate — Touch Typing, Math Foundations, Abacus/Vedic Math, Software Eng, IT & Hardware | Months 1–4 |
-| 1 | Data & compute core — Stats/Viz/DB, Data Engineering, Networking/Cybersecurity, Electronics basics | Months 4–9 |
-| 2 | Intelligence core — ML Math, ML Engineering, GPU Programming, LLM/GenAI/Agentic AI, Info Theory, Graph Learning, DL & RL, Evolutionary Computation | Year 1–2 |
-| 3 | Money & behavior — Financial Analysis & Econometrics, Quant Trading, Behavioral Psychology | Year 2–3 |
-| 4 | Life & mind — Biology, Neuroscience, Neuro-engineering & BMI | Year 3–4 |
-| 5 | Physical & materials engineering — Materials Science, Chemistry, Nanotech, Electronics (deep), Robotics, Drones/AAVs | Year 4–6 |
-| 6 | Frontier physics & space — Engineering Physics & Astronomy, Special Relativity, Rocket Engineering, Satellite/Space Systems | Year 6–8 |
-| 7 | Hardest peaks (capped at solid-beginner, not intermediate) — Quantum Computing, Quantum/Particle/Nuclear Physics, General Relativity | Year 8–10+ |
+| 0 | Universal substrate — Touch Typing, Math Foundations, Abacus/Vedic Math, Software Eng, IT & Hardware | Year 1 (survey) → Years 2–3 (intermediate) |
+| 1 | Data & compute core — Stats/Viz/DB, Data Engineering, Networking/Cybersecurity, Electronics basics | Year 1 (survey) → Years 2–3 (intermediate) |
+| 2 | Intelligence core — ML Math, ML Engineering, GPU Programming, LLM/GenAI/Agentic AI, Info Theory, Graph Learning, DL & RL, Evolutionary Computation | Year 1 (survey) → Years 2–3 (intermediate) |
+| 3 | Money & behavior — Financial Analysis & Econometrics, Quant Trading, Behavioral Psychology | Year 1 (survey) → Years 4–5 (intermediate) |
+| 4 | Life & mind — Biology, Neuroscience, Neuro-engineering & BMI | Year 1 (survey) → Years 4–5 (intermediate) |
+| 5 | Physical & materials engineering — Materials Science, Chemistry, Nanotech, Electronics (deep), Robotics, Drones/AAVs | Year 1 (survey) → Years 6–7 (intermediate) |
+| 6 | Frontier physics & space — Engineering Physics & Astronomy, Special Relativity, Rocket Engineering, Satellite/Space Systems | Year 1 (survey) → Year 8 (intermediate) |
+| 7 | Hardest peaks (capped at solid-beginner, not intermediate) — Quantum Computing, Quantum/Particle/Nuclear Physics, General Relativity | Year 1 (survey) → Years 9–10 (capped depth + grand synthesis) |
+
+Note the shallow-first spiral: **every** tier gets its Year 1 survey pass at the same time (Pass 1), before any tier deepens. Deepening then proceeds tier-by-tier in the order above, not by calendar month — see the xlsx below for the literal module-by-module schedule this produces.
+
+## 10-Year Module-Level Plan
+
+[`Polymath_10_Year_Curriculum.xlsx`](Polymath_10_Year_Curriculum.xlsx) is the north-star artifact for the whole project — a 1000-row plan, exactly 100 modules per year for 10 years, one row per module. It's the literal realization of the tier table above, spiral structure included.
+
+**Sheet 1 — "10-Year Curriculum"** (1000 rows), columns:
+- `Row`, `Year`, `Month (approx)` — sequencing
+- `Tier`, `Tier Name` — which of the 7 tiers (or `-` for a cross-track synthesis row)
+- `Field / Discipline`, `Module Title`, `Depth Target` — what's being learned and how deep this pass goes
+- `Why Here (tier rationale)`, `What Happens (X.1 + X.2)` — the formal + conceptual treatment for that module
+- `X.3 Seed (Agent Code)`, `X.4 Seed (Paper Angle)`, `X.5 Seed (Trading)`, `X.6 Seed (Recursive Self-Improvement)` — one seedling per track, every row, per the [Seedling Log](#seedling-log-per-module-mandatory-kept-tight) discipline
+
+**Sheet 2 — "Legend & Tier Map"** — the 7 tiers with their rationale and full field list, for quick reference.
+
+**Year-by-year shape:**
+
+| Year(s) | What happens |
+|---|---|
+| 1 | Pass 1 — shallow survey across all 41 fields/disciplines (2 modules each), plus 18 cross-track synthesis rows (Axioms Ledger consolidation, Seedling Log triage, cadence audits, etc.) |
+| 2–3 | Deepen Tier 0–2 (Universal substrate, Data & compute core, Intelligence core) to intermediate |
+| 4–5 | Deepen Tier 3–4 (Money & behavior, Life & mind) to intermediate |
+| 6–7 | Deepen Tier 5 (Physical & materials engineering) to intermediate |
+| 8 | Deepen Tier 6 (Frontier physics & space) to intermediate |
+| 9–10 | Tier 7 (hardest peaks) to its capped depth, plus grand-synthesis rows: second-spiral deep dives back into earlier tiers at research depth, a decade-long X.4/X.5/X.6 retrospective, and a next-decade roadmap module |
+
+Color-coded by tier, with a frozen header row and autofilter for slicing by year/tier/field. Generated as a structured first draft — real, tier-correct, dependency-ordered sequencing across all 41 fields, with the seed columns built from field-specific templates rather than individually hand-authored; treat it as the north star to react to and hand-tune, not a finished/final artifact.
 
 ## Cadence
 
@@ -56,6 +84,7 @@ tracks/
   X5-trading/             experimental trading testbed
   X6-recursive/           periodic recursive self-improvement reviews
 starter.docx              unified copy of the same content, single-file-readable
+Polymath_10_Year_Curriculum.xlsx   1000-row, module-level, 10-year plan (the north star)
 ```
 
 A unified `starter.docx` is kept in sync with everything under `curriculum/` and `tracks/X1-formal` + `tracks/X2-conceptual`, for single-document reading.
