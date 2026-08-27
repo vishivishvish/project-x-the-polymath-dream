@@ -9,12 +9,6 @@ Both halves share one curriculum, one repo, and one running log of ideas.
 
 **Status:** [`Polymath_10_Year_Curriculum.xlsx`](Polymath_10_Year_Curriculum.xlsx) is locked in as the 10-year reference plan. Day 1 of the curriculum: 2026-08-25.
 
-## Progress Log
-
-Real reps, logged as they happen — the ground truth this whole plan is measured against.
-
-- **2026-08-27 — Row 1, Tier 0 · Touch Typing: Home row anchoring (first rep).** Home row drill: `asdf jkl;` x10, without looking down. Bigram drill: `a;lskdjf asdf jkl;` x10 — 1 transposition error (`a;lskdfj` on rep 8), 9/10 clean. Free-typing check: own name + "the quick brown fox" pangram, home-row-anchored. First data point for next week's glance-down / error-rate comparison.
-
 ## The six tracks
 
 Every curriculum module runs through some or all of these, in order, per run:
@@ -96,3 +90,11 @@ Polymath_10_Year_Curriculum.xlsx   1000-row, module-level, 10-year plan (the nor
 ```
 
 A unified `starter.docx` is kept in sync with everything under `curriculum/` and `tracks/X1-formal` + `tracks/X2-conceptual`, for single-document reading.
+
+## Progress Log
+
+Real reps, logged as they happen — the ground truth this whole plan is measured against.
+
+> **Convention:** every Log section in this README (this one included) is kept **reverse-chronological** — newest entry at the top, oldest at the bottom. New entries get added directly under this note, not appended to the end.
+
+- **2026-08-27 — Row 1, Tier 0 · Touch Typing: Home row anchoring (first rep).** Home row drill: `asdf jkl;` x10, without looking down. Bigram drill: `a;lskdjf asdf jkl;` x10 — 1 transposition error (`a;lskdfj` on rep 8), 9/10 clean. Free-typing check: own name + "the quick brown fox" pangram, home-row-anchored. First data point for next week's glance-down / error-rate comparison.
