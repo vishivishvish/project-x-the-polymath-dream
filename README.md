@@ -8,7 +8,10 @@ A dual, parallel-tracked long-term Polymath project:
 Both halves share one curriculum, one repo, and one running log of ideas.
 
 **Status:** [`Polymath_10_Year_Curriculum.xlsx`](Polymath_10_Year_Curriculum.xlsx) is locked in as the 10-year reference plan. 
-Day 1 of the curriculum: 28th August 2026. Currently live without a break yet.
+
+Day 1 of the curriculum: 28th August 2026. 
+
+Currently live without a break yet.
 
 ## The six tracks
 
