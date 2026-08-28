@@ -97,4 +97,5 @@ Real reps, logged as they happen — the ground truth this whole plan is measure
 
 > **Convention:** every Log section in this README (this one included) is kept **reverse-chronological** — newest entry at the top, oldest at the bottom. New entries get added directly under this note, not appended to the end.
 
+- **2026-08-29 — Row 1, Tier 0 · Touch Typing: Home row anchoring (second rep).** Home row drill: `asdf jkl;` x10, without looking down. Bigram drill: `a;lskdjf asdf jkl;` x10 — **10/10 clean, 0 errors** (up from 9/10 on 2026-08-27 — the rep-8 transposition is gone). Free-typing check: full name "vishnu subramanian" + "the quick brown fox" pangram, home-row-anchored. Second data point — error rate trending the right direction after 2 days.
 - **2026-08-27 — Row 1, Tier 0 · Touch Typing: Home row anchoring (first rep).** Home row drill: `asdf jkl;` x10, without looking down. Bigram drill: `a;lskdjf asdf jkl;` x10 — 1 transposition error (`a;lskdfj` on rep 8), 9/10 clean. Free-typing check: own name + "the quick brown fox" pangram, home-row-anchored. First data point for next week's glance-down / error-rate comparison.
