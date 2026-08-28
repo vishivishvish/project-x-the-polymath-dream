@@ -11,7 +11,7 @@ Both halves share one curriculum, one repo, and one running log of ideas.
 
 [`Polymath_10_Year_Curriculum.xlsx`](Polymath_10_Year_Curriculum.xlsx) is locked in as the 10-year reference plan. 
 
-**Day 1 of the curriculum:** 28th August 2026. 
+**Day 1 of the curriculum:** 27th August 2026. 
 
 Currently live without a break yet.
 
