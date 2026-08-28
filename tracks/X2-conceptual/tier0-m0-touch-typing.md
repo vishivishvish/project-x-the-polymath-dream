@@ -13,5 +13,5 @@ Every discipline in this curriculum eventually asks you to externalize thought q
 ## Seedling Log
 - **X.3 seed:** the agent's own "attention budget" — if it spends compute on low-value bottleneck operations (I/O parsing, formatting) that scale with input size but not with learning value, that's the agent's version of not touch-typing; worth flagging where compute goes.
 - **X.4 seed:** a throwaway framing device for a future paper's introduction — "systems that automate their own low-value bottlenecks first free capacity for the parts that compound" — could open an X.6 paper on resource allocation in the agent's own loop.
-- **X.5 seed:** none plausible at this module's depth — logged as a deliberate null.
+- **X.5 seed:** if touch-typing speed changed how the agent trades, it wouldn't be about the agent — it'd be about the human in the loop: faster, error-free manual entry of trade annotations/overrides into the X.5 testbed removes a human-side latency and error source, however small.
 - **X.6 seed:** does the agent have an equivalent of "typing overhead" — some fixed cost paid every run that could be automated once and forgotten? Worth an audit pass in the first X.6 review.
