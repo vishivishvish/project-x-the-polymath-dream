@@ -28,7 +28,9 @@ Every curriculum module runs through some or all of these, in order, per run:
 | **X.5** | Agent Trading | An experimental (not production) testbed where the agent's learning is applied to trading decisions, tracked against P&L/XIRR as one metric among several | When a module plausibly improves decision-making under uncertainty |
 | **X.6** | Recursive Self-Improvement | The grand loop: does what we learned change *how* the agent learns, not just *what* it knows? Feeds back into X.3's code and into how the curriculum itself sequences | Periodic review, end of each tier |
 
-**Seedling Log:** every module's X.2 write-up ends with one line each for X.3, X.4, X.5, and X.6 — "if this idea touched the agent's code / a paper / trading / the agent's learning-to-learn, what's the smallest version of that?" Most seeds go nowhere. That's fine — they're cheap, they compound, and periodic X.6 reviews scan the logs to decide which seeds are worth promoting into real work. See [curriculum/seedlings/](curriculum/seedlings/).
+**Seedling Log:**
+
+Every module's X.2 write-up ends with one line each for X.3, X.4, X.5, and X.6 — "if this idea touched the agent's code / a paper / trading / the agent's learning-to-learn, what's the smallest version of that?" Most seeds go nowhere. That's fine — they're cheap, they compound, and periodic X.6 reviews scan the logs to decide which seeds are worth promoting into real work. See [curriculum/seedlings/](curriculum/seedlings/).
 
 ## The curriculum: 7 tiers, simple → complex, spiral
 
