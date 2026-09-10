@@ -81,6 +81,12 @@ Every layer must serve the **rediscovery narrative** — the case study's core p
 
 ---
 
+## Domain-Specific Notes (Simulation / Robotics / Driving)
+- **CS031 Robotics Sim / CS032 Driving Sim:** These use simulated environments (Gymnasium, PyBullet, custom NumPy/Pygame) as the "lab." The House Stack applies identically — L1 learns from sim data, L3/L5/L6 train policies in sim, L7 designs sim curricula. The **hybrid endgame** (Agentic + Neural + Graph + Evolutionary) is the *differentiator*: it shows an agent that not only solves the task but *invents the next layer of intelligence* (architectures, rewards, curricula, environments). This is the flagship demonstration of X.3 Agent Learning on Tier 5 Robotics.
+- **Sim-to-real gap:** L7 Autonomous agent explicitly proposes sim modifications (noise, delay, friction) to close the gap — this is "agentic system identification."
+
+---
+
 ## CPU Feasibility Tiers
 | Tier | Layers | Typical Time (CPU) | Example Domains |
 |------|--------|-------------------|-----------------|
