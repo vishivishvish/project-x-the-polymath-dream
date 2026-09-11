@@ -2,6 +2,7 @@
 
 **Status:** Draft for Vishnu approval (pre-scaffold)  
 **Author:** Grok Bot & OpenClaude + Nvidia NIM LLM
+
 **Date:** 2026-09-11 IST  
 **Pitch refs:** `CASE_STUDY_PITCHES.md` §CS032, `TOP_PICKS.md` #12, `HOUSE_STACK.md`
 
