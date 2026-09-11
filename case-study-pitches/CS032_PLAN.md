@@ -1,4 +1,4 @@
-# CS032 Plan: Self-Driving Car Sim — Rediscovering Driving Intelligence from Endless Ribbon Roads
+# CS032 Plan: Self-Driving Car Simulation - Rediscovering Driving Intelligence from Endless Ribbon Roads
 
 **Status:** Draft for Vishnu approval (pre-scaffold)  
 **Author:** Grok Bot & OpenClaude + Nvidia NIM LLM
