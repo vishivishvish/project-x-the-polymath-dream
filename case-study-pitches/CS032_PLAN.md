@@ -1,7 +1,7 @@
 # CS032 Plan: Self-Driving Car Sim — Rediscovering Driving Intelligence from Endless Ribbon Roads
 
 **Status:** Draft for Vishnu approval (pre-scaffold)  
-**Author:** Vivian (from Lyra pitch + CS002 gated-pipeline pattern)  
+**Author:** Grok Bot & OpenClaude + Nvidia NIM LLM
 **Date:** 2026-09-11 IST  
 **Pitch refs:** `CASE_STUDY_PITCHES.md` §CS032, `TOP_PICKS.md` #12, `HOUSE_STACK.md`
 
