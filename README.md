@@ -95,6 +95,8 @@ Polymath_10_Year_Curriculum.xlsx   1000-row, module-level, 10-year plan (the nor
 
 A unified `starter.docx` is kept in sync with everything under `curriculum/` and `tracks/X1-formal` + `tracks/X2-conceptual`, for single-document reading.
 
+**New case-study pitches:** See `case-study-pitches/CASE_STUDY_PITCHES.md` — **CS031 Robotics Sim** and **CS032 Self-Driving Car Sim** (both Tier 5 Robotics + full Tier 2 Intelligence Core) with complete House Stack L1–L7 + hybrid Agentic+Neural+Graph+Evolutionary endgames. CPU-feasible via Gymnasium (classic/robotics, CarRacing-v3), pure NumPy/pymunk/Pygame, or PyBullet.
+
 ## Progress Log
 
 Real reps, logged as they happen — the ground truth this whole plan is measured against.

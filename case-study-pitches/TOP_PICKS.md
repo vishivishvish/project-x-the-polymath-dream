@@ -63,8 +63,30 @@ Learn Lorentz invariance from collision data. Ablate equivariance → break gene
 
 ---
 
-**Strategic note:** CS013, CS014, CS019, CS022, CS026 are CPU-trivial and ship in days. Do these first to build momentum. CS018/015/030 are medium — queue for sprint 2. CS020/027/024 need GPU — park for Nova's GPU box.
+---
 
-**Vishnu coverage check:** All 10 hit ≥2 curriculum tiers. Tier 0, 2, 3, 4, 5, 6 all represented. Tier 7 only in honorable mentions. Tier 1 (Data/Compute) implicit in all.
+**11. CS031 Robotics Sim — Rediscovering Control Principles from Simulation via Progressive Model Intelligence**
+**Disciplines:** Tier 5 (Robotics & Ground-based Autonomous Systems) + Tier 2 (DL/RL, Evo Comp, Graph Learning, Agentic AI) — hits the full Intelligence Core.
+**Hook:** Progressive House Stack on a single robot task (reach/navigate) — each layer buys measurable control improvement, ending in a hybrid Agentic+Neural+Graph+Evolutionary system that beats hand-tuned baselines.
+**CPU feasibility:** **Easy–Medium** — Gymnasium classic/robotics (MuJoCo-free), pure NumPy+pymunk, or PyBullet on CPU. MuJoCo stretch if license available.
+**Novelty:** Compares *intelligence layers* not *algorithms* — shows exactly what L1→L7 + hybrid endgame buys for control.
+**House Stack:** Complete L1–L7 + hybrid endgame (Agentic+Neural+Graph+Evolutionary) with honest CPU skips (L4 Decision Transformer ONNX).
+**Ranking:** Strong candidate for #1–3 — hits Tier 5 (Robotics, deepening years 6–7) + full Tier 2, CPU-feasible, pure rediscovery flavor, stunning viz (phase portraits, curriculum trees).
 
-**House Stack coverage check:** All 10 top picks have complete L1–L7 mappings with honest CPU skips where needed. No hand-waving.
+---
+
+**12. CS032 Self-Driving Car Sim — Rediscovering Driving Intelligence from Endless Ribbon Roads**
+**Disciplines:** Tier 5 (Robotics & Ground-based Autonomous Systems) + Tier 2 (DL/RL, Evo Comp, Graph Learning, Agentic AI, Info Theory) — full Intelligence Core + Info Theory.
+**Hook:** Minimal "endless ribbon road" (CarRacing-v3 or custom Pygame/NumPy) — progressive House Stack from behavioral cloning → RL → Transformer world model → GenAI synthetic roads/weather → structured vs. autonomous driving agents → hybrid Agentic+Neural+Graph+Evolutionary driver that *generates its own test tracks*.
+**CPU feasibility:** **Easy–Medium** — Gymnasium CarRacing-v3 (Box2D, pure Python) or custom NumPy+Pygame procedural track. Both train in minutes on CPU. Avoid DonkeyCar/Udacity (heavy/Unity).
+**Novelty:** Frames driving as *progressive intelligence ladder* on a *generative* task — shows what each layer buys, from PID to agentic curriculum design. Only pick with GenAI *synthesizing the environment itself* (roads/weather).
+**House Stack:** Complete L1–L7 + hybrid endgame (Agentic+Neural+Graph+Evolutionary) with honest CPU skips (L4 Decision Transformer/DriveGPT ONNX).
+**Ranking:** Strong candidate for #1–3 — mirrors CS031 but for driving; hits Tier 5 + full Tier 2 + Info Theory; CPU-feasible; unique GenAI-for-environment-synthesis angle; stunning viz (policy heatmaps on track, attention on road, generated road variants, curriculum trees).
+
+---
+
+**Strategic note:** CS013, CS014, CS019, CS022, CS026 are CPU-trivial and ship in days. Do these first to build momentum. CS018/015/030 are medium — queue for sprint 2. CS031 Robotics Sim is Easy–Medium — queue for sprint 2 alongside CS018/015/030; it's the *only* top pick hitting Tier 5 Robotics (deepening years 6–7) with full Tier 2 coverage. CS020/027/024 need GPU — park for Nova's GPU box.
+
+**Vishnu coverage check:** All 12 hit ≥2 curriculum tiers. Tier 0, 2, 3, 4, 5, 6 all represented. Tier 5 (Robotics) now explicitly covered by CS031/032. Tier 7 only in honorable mentions. Tier 1 (Data/Compute) implicit in all.
+
+**House Stack coverage check:** All 12 top picks have complete L1–L7 mappings with honest CPU skips where needed. No hand-waving.
