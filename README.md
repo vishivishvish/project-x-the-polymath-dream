@@ -1,13 +1,11 @@
 # Project X - The Polymath Dream
 
-**A dual, parallel-tracked long-term Polymath project:**
+**A dual, parallel-tracked long-term polymath project:**
 
 1. **I become an intermediate-level polymath** across a deliberately sequenced set of scientific and engineering disciplines.
 2. **A continual-learning agent** improves its own performance on an expanding set of metrics (representation stability, ML eval metrics, trading P&L/XIRR, writing quality, etc.), using the same curriculum as its source of experience.
 
 Both halves share one curriculum, one repo, and one running log of ideas.
-
-**Status:** 
 
 [`Polymath_10_Year_Curriculum.xlsx`](Polymath_10_Year_Curriculum.xlsx) is locked in as the 10-year reference plan. 
 
