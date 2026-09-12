@@ -1,8 +1,0 @@
-HEAD: a31b3b9
-Synced from origin/main (fast-forward from d27af92)
-Changes pulled:
-- README.md updated (remote edit)
-- case-study-pitches/CASE_STUDY_PITCHES.md created (168 lines)
-- case-study-pitches/DISCIPLINES.md created (63 lines)
-- case-study-pitches/README.md created (9 lines)
-- case-study-pitches/TOP_PICKS.md created (46 lines)
