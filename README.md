@@ -61,8 +61,8 @@ Note the shallow-first spiral: **every** tier gets its Year 1 survey pass at the
 | Year(s) | What happens |
 |---|---|
 | 1 | Pass 1 — shallow survey across all 41 fields/disciplines (2 modules each), plus 18 cross-track synthesis rows (Axioms Ledger consolidation, Seedling Log triage, cadence audits, etc.) |
-| 2–3 | Deepen Tier 0–2 (Universal substrate, Data & compute core, Intelligence core) to intermediate |
-| 4–5 | Deepen Tier 3–4 (Money & behavior, Life & mind) to intermediate |
+| 2–3 | Deepen Tiers 0–2 (Universal substrate, Data & compute core, Intelligence core) to intermediate |
+| 4–5 | Deepen Tiers 3–4 (Money & behavior, Life & mind) to intermediate |
 | 6–7 | Deepen Tier 5 (Physical & materials engineering) to intermediate |
 | 8 | Deepen Tier 6 (Frontier physics & space) to intermediate |
 | 9–10 | Tier 7 (hardest peaks) to its capped depth, plus grand-synthesis rows: second-spiral deep dives back into earlier tiers at research depth, a decade-long X.4/X.5/X.6 retrospective, and a next-decade roadmap module |
