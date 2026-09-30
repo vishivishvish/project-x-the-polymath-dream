@@ -71,7 +71,7 @@ Color-coded by tier, with a frozen header row and autofilter for slicing by year
 
 ## Cadence
 
-15 minutes/day, non-negotiable floor (keeps the streak, runs the agent, does spaced review), supplemented by occasional deeper blocks when a new tier opens. See [curriculum/00-overview.md](curriculum/00-overview.md#cadence--mastery-bar) for the mastery-bar definitions (Beginner / Intermediate / Advanced) used to judge progress per field.
+15 minutes/day, non-negotiable floor (keeps the streak, runs the agent, and does spaced review), supplemented by occasional deeper blocks when a new tier opens. See [curriculum/00-overview.md](curriculum/00-overview.md#cadence--mastery-bar) for the mastery-bar definitions (Beginner / Intermediate / Advanced) used to judge progress per field.
 
 ## Repo layout
 
