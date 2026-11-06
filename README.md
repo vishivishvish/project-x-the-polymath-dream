@@ -24,7 +24,7 @@ Every curriculum module runs through some or all of these, in order, per run:
 
 **Seedling Log:**
 
-Every module's X.2 write-up ends with one line each for X.3, X.4, X.5, and X.6 — "if this idea touched the agent's code / a paper / trading / the agent's learning-to-learn, what's the smallest version of that?" Most seeds go nowhere. That's fine — they're cheap, they compound, and periodic X.6 reviews scan the logs to decide which seeds are worth promoting into real work. See [curriculum/seedlings/](curriculum/seedlings/).
+Every module's X.2 write-up ends with one line each for X.3, X.4, X.5, and X.6 — "if this idea touched the agent's code / a paper / trading / the agent's learning-to-learn, what's the smallest version of that?" Most seeds go nowhere. That's fine — they are cheap, they compound, and periodic X.6 reviews scan the logs to decide which seeds are worth promoting into real work. See [curriculum/seedlings/](curriculum/seedlings/).
 
 ## The curriculum: 7 tiers, simple → complex, spiral
 
